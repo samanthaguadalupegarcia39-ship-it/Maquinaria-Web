@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MAQUINARIA CATALOGO</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+ <head>
+    <meta charset="utf-8">
+    <title>MAQUINARIA CATALOGO</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">Help</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white pl-3" href="">Contacto</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-white pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary"></span> 🚜  Maquinaria pesada</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="AB" class="nav-item nav-link">CATÁLOGO</a>
+                    </div>
+                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary"></span> 🚜 MAQUINARIA</h1>
+                    </a>
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="service.html" class="nav-item nav-link">Servicio</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+<br>  
+
+  <!-- CONTENEDORES POR CATEGORÍA -->
+
+
+  <!-- BOTONES DE FILTRO -->
+  <div class="filtros">
+    <button class="btn-filtro active" onclick="filtrarCategoria('all')">Todos</button>
+    <button class="btn-filtro" onclick="filtrarCategoria('mini-excavadora')">Mini Excavadoras</button>
+    <button class="btn-filtro" onclick="filtrarCategoria('excavadora')">Excavadoras</button>
+    <button class="btn-filtro" onclick="filtrarCategoria('retroexcavadora')">Retroexcavadoras</button>
+  </div>
+
+  <!-- Compactadores -->
+<!-- ================= MINI EXCAVADORAS ================= -->
+<div class="cards-container" data-category="mini-excavadora">
+
+  <!-- MINI EXCAVADORA BOBCAT E35 -->
+  <div class="card">
+    <img src="img/mini-e35-1.jpg" alt="Mini Excavadora Bobcat E35">
+    <h3>MINI EXCAVADORA BOBCAT E35</h3>
+    <p>Año: 2020 | Horas: 2,300</p>
+    <p>Zona: Norte</p>
+    <p class="price">USD 38,000</p>
+    <button onclick="openModal('modal-e35')">Ver más detalles</button>
+  </div>
+
+  <!-- Modal E35 -->
+  <div id="modal-e35" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-e35')">&times;</span>
+      <h2>MINI EXCAVADORA BOBCAT E35</h2>
+      <div class="carousel" id="carousel-e35">
+        <img src="img/mini-e35-1.jpg" class="big" alt="">
+        <div class="thumbnails">
+          <img src="img/mini-e35-1.jpg" class="active" onclick="showSlide(0,'carousel-e35')">
+          <img src="img/mini-e35-2.jpg" onclick="showSlide(1,'carousel-e35')">
+          <img src="img/mini-e35-3.jpg" onclick="showSlide(2,'carousel-e35')">
+        </div>
+        <button class="prev" onclick="prevSlide('carousel-e35')">&#10094;</button>
+        <button class="next" onclick="nextSlide('carousel-e35')">&#10095;</button>
+      </div>
+      <p><b>Marca:</b> Bobcat</p>
+      <p><b>Modelo:</b> E35</p>
+      <p><b>Año:</b> 2020</p>
+      <p><b>Horas:</b> 2,300</p>
+      <p><b>Zona:</b> Norte</p>
+      <p><b>Servicio:</b> Preventivo al día</p>
+      <p><b>Condiciones:</b> Excelente estado, lista para trabajar</p>
+      <p class="price">Precio: USD 38,000</p>
+      <a href="https://wa.me/521XXXXXXXXXX" target="_blank" class="btn-whatsapp">Cotizar por WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- MINI EXCAVADORA CAT 303.5 -->
+  <div class="card">
+    <img src="img/mini-3035-1.jpg" alt="Mini Excavadora CAT 303.5">
+    <h3>MINI EXCAVADORA CAT 303.5</h3>
+    <p>Año: 2019 | Horas: 3,800</p>
+    <p>Zona: Centro</p>
+    <p class="price">USD 34,500</p>
+    <button onclick="openModal('modal-3035')">Ver más detalles</button>
+  </div>
+
+  <!-- Modal CAT 303.5 -->
+  <div id="modal-3035" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-3035')">&times;</span>
+      <h2>MINI EXCAVADORA CAT 303.5</h2>
+      <div class="carousel" id="carousel-3035">
+        <img src="img/mini-3035-1.jpg" class="big" alt="">
+        <div class="thumbnails">
+          <img src="img/mini-3035-1.jpg" class="active" onclick="showSlide(0,'carousel-3035')">
+          <img src="img/mini-3035-2.jpg" onclick="showSlide(1,'carousel-3035')">
+        </div>
+        <button class="prev" onclick="prevSlide('carousel-3035')">&#10094;</button>
+        <button class="next" onclick="nextSlide('carousel-3035')">&#10095;</button>
+      </div>
+      <p><b>Marca:</b> Caterpillar</p>
+      <p><b>Modelo:</b> 303.5</p>
+      <p><b>Año:</b> 2019</p>
+      <p><b>Horas:</b> 3,800</p>
+      <p><b>Zona:</b> Centro</p>
+      <p><b>Servicio:</b> Preventivo</p>
+      <p><b>Condiciones:</b> Muy buen estado, único dueño</p>
+      <p class="price">Precio: USD 34,500</p>
+      <a href="https://wa.me/521XXXXXXXXXX" target="_blank" class="btn-whatsapp">Cotizar por WhatsApp</a>
+    </div>
+  </div>
+
+</div>
+<!-- =============== FIN MINI EXCAVADORAS =============== -->
+
+  <script>
+    // Abrir modal
+    function openModal(modalId){
+      document.getElementById(modalId).style.display = "flex";
+    }
+    // Cerrar modal
+    function closeModal(modalId){
+      document.getElementById(modalId).style.display = "none";
+    }
+    // Cerrar modal al hacer clic fuera
+    window.onclick = function(event){
+      const modals = document.querySelectorAll('.modal');
+      modals.forEach(modal => {
+        if(event.target == modal) modal.style.display = "none";
+      });
+    }
+
+    // Carrusel
+    function showSlide(index, carouselId){
+      const carousel = document.getElementById(carouselId);
+      const mainImage = carousel.querySelector('img.big');
+      const thumbs = carousel.querySelectorAll('.thumbnails img');
+      mainImage.src = thumbs[index].src;
+      thumbs.forEach((t,i)=> t.classList.toggle('active', i===index));
+    }
+    function nextSlide(carouselId){
+      const carousel = document.getElementById(carouselId);
+      const thumbs = carousel.querySelectorAll('.thumbnails img');
+      let activeIndex = Array.from(thumbs).findIndex(t => t.classList.contains('active'));
+      let nextIndex = (activeIndex+1)%thumbs.length;
+      showSlide(nextIndex, carouselId);
+    }
+    function prevSlide(carouselId){
+      const carousel = document.getElementById(carouselId);
+      const thumbs = carousel.querySelectorAll('.thumbnails img');
+      let activeIndex = Array.from(thumbs).findIndex(t => t.classList.contains('active'));
+      let prevIndex = (activeIndex-1+thumbs.length)%thumbs.length;
+      showSlide(prevIndex, carouselId);
+    }
+
+    // Filtros
+    function filtrarCategoria(categoria) {
+      const contenedores = document.querySelectorAll('.cards-container');
+      contenedores.forEach(c => {
+        if(categoria === 'all' || c.dataset.category === categoria){
+          c.style.display = 'grid';
+        } else {
+          c.style.display = 'none';
+        }
+      });
+      // Botón activo
+      const botones = document.querySelectorAll('.btn-filtro');
+      botones.forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+    }
+
+    // Mostrar todos por defecto
+    document.addEventListener("DOMContentLoaded", () => {
+      filtrarCategoria('all');
+    });
+  </script>
+
+</body>
+</html>
